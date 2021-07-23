@@ -51,9 +51,3 @@ function search() {
     document.getElementById("search_div").innerHTML = search_output;
     console.log(search_output);
 }
-function copy() {
-   display_name.select();
-   display_name.setSelectionRange(0, 99999)
-  document.execCommand("copy");
-  alert("Guest List Copied: " +  display_name.value);
-}
